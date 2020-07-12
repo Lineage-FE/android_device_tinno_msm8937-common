@@ -199,3 +199,14 @@ ro.vendor.qti.sys.fw.use_trim_settings=true
 # Wi-Fi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
+
+
+#Recorder
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.sf.disable_backpressure=1 \
+    debug.sf.hw=1 \
+    debug.hwui.renderer=skiagl \
+    debug.cpurend.vsync=false \
+    vendor.gralloc.disable_ubwc=0 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno

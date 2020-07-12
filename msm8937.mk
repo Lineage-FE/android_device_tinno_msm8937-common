@@ -386,3 +386,7 @@ PRODUCT_COPY_FILES += \
 # GCam Go
 PRODUCT_PACKAGES += \
     GCam
+
+# Recorder
+PRODUCT_PACKAGES += \
+    KimciRecorder
