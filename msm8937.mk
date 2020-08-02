@@ -390,3 +390,7 @@ PRODUCT_PACKAGES += \
 # Recorder
 PRODUCT_PACKAGES += \
     KimciRecorder
+
+# Viper4Android FX
+PRODUCT_PACKAGES += \
+    Equalizer
