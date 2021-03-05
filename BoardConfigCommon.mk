@@ -183,6 +183,7 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 BOARD_USES_QCOM_HARDWARE := true
 
 # Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 TARGET_USES_INTERACTION_BOOST := true
 
 # Recovery
